@@ -1,5 +1,5 @@
                 https://docs.oracle.com/javase/7/docs/api/java/util/PriorityQueue.html
-
+            https://www.tutorialspoint.com/java/util/index.htm
 java.util
 Class PriorityQueue<E>
 
@@ -19,8 +19,15 @@ extends AbstractQueue<E>
 implements Serializable
 
 
+java.util.PriorityQueue.poll() 
+  The poll() method is used to retrieve and remove the head of this queue, or returns null if this queue is empty.
+  
+  
 * An unbounded priority queue based on a priority heap. The elements of the priority queue are ordered according to their natural 
-ordering, or by a Comparator provided at queue construction time, depending on which constructor is used. A priority queue does not      permit null elements. A priority queue relying on natural ordering also does not permit insertion of non-comparable objects (doing so     may result in ClassCastException).
+ordering, or by a Comparator provided at queue construction time, depending on which constructor is used.
+  A priority queue does not permit null elements.
+  A priority queue relying on natural ordering also does not permit insertion of non-comparable objects 
+  (doing so may result in ClassCastException).
 
 The head of this queue is the least element with respect to the specified ordering. If multiple elements are tied for least value,
 the head is one of those elements -- ties are broken arbitrarily. The queue retrieval operations poll, remove, peek, and element access
